@@ -36,7 +36,7 @@ header {
 
 #logo {
     height: 8vh;
-    padding: 15px 0 15px 15px;
+    padding: 15px 0 15px 45px;
     float: left;
 }
 
@@ -64,4 +64,20 @@ header {
 #navigation a:hover {
     text-decoration: underline;
     color: #C3070F;
+}
+
+/* Hero image composition */
+
+#hero-image {
+    background-image: url(../images/background_high.jpg);
+    background-size: cover;
+    height: 200vh;
+    width: 100%;
+    position: relative;
+}
+
+#lancaster {
+    position: fixed;
+    left: 8.5%;
+    top: 22%;
 }
