@@ -30,12 +30,12 @@ h2 {
 /* Navigation */
 
 header {
-    height: 15vh;
+    height: 12vh;
     background-color: #2C3639;
 }
 
 #logo {
-    height: 10vh;
+    height: 8vh;
     padding: 15px 0 15px 15px;
     float: left;
 }
@@ -43,15 +43,25 @@ header {
 #navigation {
     float: right;
     padding: 15px 45px 0 15px;
+    color: #DCD7C9;
 }
 
 #navigation li {
     font-family: 'Alfa Slab One', serif;
-    text-decoration: none;
-    color: inherit;
     list-style-type: none;
     display: inline;
     line-height: 75px;
-    margin-right: 15px;
+    margin-right: 20px;
     top: 50%;
+}
+
+#navigation a {
+    text-decoration: none !important;
+    color: inherit;
+    letter-spacing: 2px;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+    color: #C3070F;
 }
