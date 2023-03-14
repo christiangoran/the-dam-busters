@@ -20,6 +20,9 @@ h1 {
     font-family: 'Alfa Slab One', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-size: 320%;
+    line-height: 45px;
+    
 }
 
 h2 {
@@ -74,10 +77,36 @@ header {
     height: 200vh;
     width: 100%;
     position: relative;
+    box-sizing: border-box;
 }
 
 #lancaster {
     position: fixed;
     left: 8.5%;
     top: 22%;
+}
+
+#title-position {
+    position: relative;
+    top: 23%;
+    left: 10%;
+}
+
+#title-position p {
+    color: #DCD7C9;
+    font-size: 150%;
+}
+
+#the {
+    font-size: 60%;
+    line-height: 30px;
+}
+
+#introduction {
+    color: #DCD7C9;
+    font-size: 150%;
+    position: relative;
+    top: 70%;
+    left: 10%;
+    width: 25%;
 }
