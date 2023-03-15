@@ -27,6 +27,7 @@ h1 {
 
 h2 {
     font-family: 'Alfa Slab One', serif;
+    margin-bottom: 15px;
 }
 
 
@@ -118,15 +119,16 @@ header {
 /* Backgroun Section */
 
 #background-section {
-    height: 70vh;
+    padding: 15vh 20vw;
+    height: 30vh;
 }
 
-#background-text {
+.center-text {
     margin: auto;
     width: 40vw;
 }
 
-#background-text h2, #background-text p {
+.center-text h2, .center-text p {
     color: #DCD7C9;
     text-align: center;
 }
