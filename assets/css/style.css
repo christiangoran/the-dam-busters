@@ -13,7 +13,7 @@ body {
 }
 
 
-/* Headings */
+/* Headings and paragraphs */
 
 h1 {
     color: #C3070F;
@@ -30,6 +30,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+.center-text {
+    margin: auto;
+    width: 40vw;
+}
 
 /* Navigation */
 
@@ -68,6 +72,7 @@ header {
 #navigation a:hover {
     text-decoration: underline;
     color: #C3070F;
+    text-decoration: none;
 }
 
 /* Hero image composition */
@@ -76,17 +81,21 @@ header {
 #hero-image {
     background-image: url(../images/background_high.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 200vh;
     width: 100%;
     position: relative;
     overflow: hidden;
- 
 }
 
-#lancaster {
-    position: fixed;
-    left: 8.5%;
-    top: 22%;
+#lancaster-section-div {
+    background-image: url(../images/plane_isolated.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 
@@ -116,19 +125,53 @@ header {
     line-height: 120%;
 }
 
-/* Backgroun Section */
+/* Background Text Section */
 
-#background-section {
+#background-text-section {
     padding: 15vh 20vw;
     height: 30vh;
-}
-
-.center-text {
-    margin: auto;
-    width: 40vw;
+    position: relative;
 }
 
 .center-text h2, .center-text p {
     color: #DCD7C9;
     text-align: center;
 }
+
+/* Ingenuity Section */
+
+#ingenuity-section {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #2C3639;
+}
+
+#fixed-section-div {
+    background-image: url(../images/wallis2.jpg);
+    width: 100%;
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+#fixed-section-div div {
+    width: 40vw;
+    float: right;
+    margin: 10% 10% 0 0; 
+    height: 60vh;
+    position: relative;
+}
+
+/* The Dangers section */
+
+#dangers-section {
+    padding: 15vh 20vw;
+    height: 30vh;
+    position: relative;
+}
+
+
+
+/* Media Queries */
+
