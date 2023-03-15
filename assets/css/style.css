@@ -176,14 +176,56 @@ header {
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
+
+    /* Hero Image section */
+
     #hero-image {
         background-image: url(../images/small_screen_bg.jpg);
         background-size: contain;
+        height: 120vh;
 
     }
 
     #lancaster-section-div {
         background: none;
+    }
+
+    #title-position {
+        top: 3%;
+        left: 5%;
+    }
+
+    #introduction {
+        color: #DCD7C9;
+        font-size: 110%;
+        position: relative;
+        top: 20%;
+        left: 5%;
+        width: 28%;
+        line-height: 110%;
+    }
+
+    /* Intro text section */
+
+    #background-text-section {
+        padding: 5% 10%;
+        height: ;
+        position: relative;
+    }
+
+    .center-text {
+        margin: auto;
+        width: 60vw;
+    }
+
+}
+
+
+@media screen and (max-width: 815px) {
+
+    #introduction {
+        top: 15%;
+        width: 80%;
     }
 
 }
