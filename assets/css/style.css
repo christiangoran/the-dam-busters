@@ -177,11 +177,11 @@ header {
 
 @media screen and (max-width: 1200px) {
 
-    /* Hero Image section */
+    /* Media query 1200px - Hero Image section */
 
     #hero-image {
         background-image: url(../images/small_screen_bg.jpg);
-        background-size: contain;
+        background-size: cover;
         height: 120vh;
 
     }
@@ -199,18 +199,18 @@ header {
         color: #DCD7C9;
         font-size: 110%;
         position: relative;
-        top: 20%;
+        top: 30%;
         left: 5%;
         width: 28%;
         line-height: 110%;
     }
 
-    /* Intro text section */
+    /* Media query 1200px - Intro text section */
 
     #background-text-section {
-        padding: 5% 10%;
-        height: ;
+        padding: 15% 10%;
         position: relative;
+        height: 20vh;
     }
 
     .center-text {
@@ -218,14 +218,99 @@ header {
         width: 60vw;
     }
 
+    /* Media query 1200px  - Ingenuity Section */
+
+    #fixed-section-div div {
+        margin-top: 5%;
+    }
+
+    #ingenuity-section {
+        height: 65vh;
+    }
+
+    #fixed-section-div {
+        height: 65vh;
+    }
+
 }
 
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 800px) {
+
+
+    /* Media query 800px - Navigation */
+
+    #logo {
+        height: 6vh;
+        padding: 20px 0 10px 15px;
+        float: left;
+    }
+
+    #navigation {
+        padding: 10px 10px 0 10px;
+    }
+
+    #navigation li {
+
+        margin-right: 5px;
+        top: 50%;
+        font-size: 80%;
+    }
 
     #introduction {
         top: 15%;
         width: 80%;
+    }
+
+    /* Media query 800px - Hero Image */
+
+    #hero-image {
+        background-image: url(../images/small_screen_bg.jpg);
+        background-size: contain;
+        height: 80vh;
+
+    }
+
+    h1 {
+        font-size: 250%;
+        line-height: 35px;
+    }
+
+    #title-position p {
+        font-size: 120%;
+    }
+
+    #the {
+        line-height: 25px;
+    }
+
+    #introduction {
+        top: 17%;
+        width: 80%;
+    }
+
+    /* Media query 800px - Background text section */
+
+    #background-text-section {
+        height: 45vh;
+    }
+
+    /* Media query 800px - Ingenuity Section */
+
+    #ingenuity-section {
+        height: 80vh;
+    }
+
+    #fixed-section-div {
+        height: 80vh;
+    }
+
+    #fixed-section-div div {
+        width: 60vw;
+        float: left;
+        margin: 10% 10% 0 5%; 
+        height: 60vh;
+
     }
 
 }
