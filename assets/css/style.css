@@ -214,6 +214,7 @@
         position: relative;
         color: #DCD7C9;
         overflow: hidden;
+        margin-bottom: 5%;
     }
 
     #mission-section-div {
@@ -230,12 +231,38 @@
         padding: 15px;
         position: absolute;
         width: 30%;
-        bottom: 15%;
         right: 15%;
 
     }
 
+/* The Aftermath Section */
 
+    #aftermath-section {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        color: #2C3639
+    }
+
+    #aftermath-section-div {
+        background-image: url(../images/destroyed.jpg);
+        background-repeat: no-repeat;
+        backface-visibility: 0.4;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #aftermath-section-text {
+        bottom: 50%;
+        left: 20%;
+        width:40%;
+        
+        position: absolute;
+        overflow: hidden;
+
+    }
 
 
 
@@ -453,6 +480,35 @@
         width: 70%;
         bottom: 7%;
         right: 9%;
+
+    }
+
+    /* Media query 800px - The Aftermath Section */
+
+    #aftermath-section {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        color: #DCD7C9
+    }
+
+    #aftermath-section-div {
+        background-image: url(../images/destroyed.jpg);
+        background-repeat: no-repeat;
+        backface-visibility: 0.4;
+        width: 100vw;
+        height: 100vh;
+        background-size: contain;
+        background-attachment: inherit;
+    }
+
+    #aftermath-section-text {
+        bottom: 10%;
+        left: 5%;
+        width:80%;
+        
+        position: absolute;
+        overflow: hidden;
 
     }
 
