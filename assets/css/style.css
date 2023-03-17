@@ -285,6 +285,36 @@
 
     }
 
+    /* Summary Section */
+
+    #summary-section {
+    height: 70vh;
+    }
+
+    #summary {
+        text-align: center;
+        margin: 10% 0 0 0;
+        color: #DCD7C9;
+    }
+
+    #summary-div {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #DCD7C9;
+        font-size: 110%;
+    }
+
+
+    #info1, #info2, #info3 {
+        background-color: #A27B5C;
+        width: 15%;
+        height: 65%;
+        padding: 20px 20px;
+    }
+
 
 
 
@@ -533,6 +563,38 @@
         position: absolute;
         overflow: hidden;
 
+    }
+
+    /* Media Query 800px - Summary Section */
+
+    #summary-section {
+        height: 70vh;
+    }
+        
+    #summary {
+        text-align: center;
+        margin: 10% 0 15% 0;
+        color: #DCD7C9;
+    }
+        
+    #summary-div {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        color: #DCD7C9;
+        font-size: 110%;
+    }
+        
+        
+    #info1, #info2, #info3 {
+        background-color: #A27B5C;
+        width: 80%;
+        margin-top: 5%;
+        height: 65%;
+        padding: 20px 20px;
     }
 
 }
