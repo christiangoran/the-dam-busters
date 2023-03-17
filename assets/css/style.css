@@ -6,6 +6,7 @@
         padding: 0;
     }
 
+
     body {
         font-family: 'Gentium Book Basic', serif;
         background-color: #3F4E4F;
@@ -137,7 +138,6 @@
     #background-text-section {
         padding: 15vh 20vw;
         height: 30vh;
-        position: relative;
     }
 
     .center-text h2, .center-text p {
@@ -175,7 +175,6 @@
     #dangers-section {
         padding: 15vh 20vw;
         height: 30vh;
-        position: relative;
     }
 
 /* The Planning Section */
@@ -315,6 +314,76 @@
         padding: 20px 20px;
     }
 
+    /* Footer Section */
+
+    footer {
+        background-color: #2C3639;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    #email {
+        border: #DCD7C9 solid 2px;
+        margin-bottom: 5px;
+        height: 40px;
+        width: 320px;
+        border-radius: 5px 0 0 5px;
+  
+    }
+
+    .newsletter-container>h2 {
+        color: #DCD7C9;
+    }
+
+
+
+    .sign-up-button {
+        font-family: 'Gentium Book Basic', serif;
+        background-color: #A27B5C;
+        color: #DCD7C9;
+        margin-top: 2px;
+        height: 45px;
+        font-size: 130%;
+        padding: 10px 20px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .sign-up-button:hover {
+        font-family: 'Gentium Book Basic', serif;
+        background-color: #DCD7C9;
+        color: #C3070F;
+        font-size: 130%;
+        padding: 10px 20px;
+    }
+
+
+
+    .footer-icons {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .footer-icons > li {
+        list-style-type: none;
+        margin: 1% 40%;
+
+    }
+
+    .footer-icons a {
+        color: #DCD7C9;
+    }
+
+    i {
+        font-size: 200%;
+    }
+
+  
 
 
 
