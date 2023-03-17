@@ -12,6 +12,11 @@
         font-weight: 300;
     }
 
+    section {
+        height: 100vh; 
+        scroll-snap-align: start;
+    }
+
 
 /* Headings and paragraphs */
 
@@ -201,6 +206,34 @@
     
     }
 
+/* The Planning Section */
+
+    #mission-section {
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        color: #DCD7C9;
+        overflow: hidden;
+    }
+
+    #mission-section-div {
+        background-image: url(../images/control_room.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 50vh;
+        background-size: contain;
+        margin: 9% 27%;
+    }
+
+    #mission-section-text {
+        background-color: #2C3639;
+        padding: 15px;
+        position: absolute;
+        width: 30%;
+        bottom: 15%;
+        right: 15%;
+
+    }
 
 
 
@@ -372,6 +405,54 @@
     #planning-section-text {
         margin: auto;
         width:60%;
+
+    }
+
+       /* Media query 800px - The Night of The Mission Section*/
+
+       #mission-section {
+        height: 75vh;
+    }
+
+    #mission-section-div {
+        background-image: url(../images/control_room.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+    }
+
+    #mission-section-text {
+        margin: auto;
+        width:60%;
+
+    }
+
+    /* Media query 800px - The Planning Section */
+
+    #mission-section {
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        color: #DCD7C9;
+        overflow: hidden;
+    }
+
+    #mission-section-div {
+        background-image: url(../images/control_room.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 50vh;
+        background-size: contain;
+        margin: 10% 6%;
+    }
+
+    #mission-section-text {
+        background-color: #2C3639;
+        padding: 15px;
+        position: absolute;
+        width: 70%;
+        bottom: 7%;
+        right: 9%;
 
     }
 
