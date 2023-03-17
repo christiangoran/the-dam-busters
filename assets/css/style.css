@@ -206,10 +206,10 @@
     
     }
 
-/* The Planning Section */
+/* The Mission Section */
 
     #mission-section {
-        height: 70vh;
+        height: 100vh;
         width: 100%;
         position: relative;
         color: #DCD7C9;
@@ -223,7 +223,7 @@
         width: 50%;
         height: 50vh;
         background-size: contain;
-        margin: 9% 27%;
+        margin: 11% 24%;
     }
 
     #mission-section-text {
@@ -232,6 +232,27 @@
         position: absolute;
         width: 30%;
         right: 15%;
+
+    }
+
+
+    #mission2-section-div {
+        background-image: url(../images/training_smaller.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 36vh;
+        background-size: contain;
+        position: relative;
+        margin: -15% 40%;
+    }
+
+    #mission2-section-text {
+        background-color: #2C3639;
+        padding: 15px;
+        position: absolute;
+        width: 50%;
+        margin: 17% -26%;
+        padding: 15px;
 
     }
 
@@ -435,29 +456,11 @@
 
     }
 
-       /* Media query 800px - The Night of The Mission Section*/
 
-       #mission-section {
-        height: 75vh;
-    }
-
-    #mission-section-div {
-        background-image: url(../images/control_room.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: inherit;
-    }
-
-    #mission-section-text {
-        margin: auto;
-        width:60%;
-
-    }
-
-    /* Media query 800px - The Planning Section */
+    /* Media query 800px - The Night of the Mission */
 
     #mission-section {
-        height: 70vh;
+        height: 110vh;
         width: 100%;
         position: relative;
         color: #DCD7C9;
@@ -478,8 +481,28 @@
         padding: 15px;
         position: absolute;
         width: 70%;
-        bottom: 7%;
+        top: 22%;
         right: 9%;
+
+    }
+
+    #mission2-section-div {
+        background-image: url(../images/training_smaller.jpg);
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 36vh;
+        background-size: contain;
+        position: relative;
+        margin: auto;
+    }
+
+    #mission2-section-text {
+        background-color: #2C3639;
+        padding: 15px;
+        position: absolute;
+        width: 80%;
+        margin: 40% 0%;
+        padding: 15px;
 
     }
 
