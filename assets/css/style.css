@@ -28,6 +28,7 @@
     h2 {
         font-family: 'Alfa Slab One', serif;
         margin-bottom: 15px;
+        letter-spacing: 1px;
     }
 
     .center-text {
@@ -96,6 +97,7 @@
         height: 200vh;
         background-attachment: fixed;
         background-size: contain;
+        
     }
 
 
@@ -174,35 +176,29 @@
 /* The Planning Section */
 
     #planning-section {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
         position: relative;
-        overflow: hidden;
         color: #DCD7C9;
+        overflow: hidden;
     }
 
     #planning-section-div {
         background-image: url(../images/plan.jpg);
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         background-size: cover;
         background-attachment: fixed;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #planning-text-container {
-        height: 60vh;
-        width: 100%;
-        position: fixed;
     }
 
     #planning-section-text {
-        background-color: #C3070F;
-        position: fixed;
-        bottom: 3%;
+        bottom: 2%;
         left: 5%;
         width:45%;
+        
+        position: absolute;
+        overflow: hidden;
+    
     }
 
 
@@ -268,6 +264,16 @@
 
     #fixed-section-div {
         height: 65vh;
+    }
+
+    /* Media query 1200px - Planning Section*/
+
+    #planning-section-div {
+        background-image: url(../images/plan.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+ 
+
     }
 
 }
@@ -336,18 +342,36 @@
     /* Media query 800px - Ingenuity Section */
 
     #ingenuity-section {
-        height: 80vh;
+        height: 70vh;
     }
 
-    #fixed-section-div {
-        height: 80vh;
+    #ingenuity-section-div {
+        height: 70vh;
     }
 
-    #fixed-section-div div {
-        width: 60vw;
+    #ingenuity-section-div div {
+        width: 70vw;
+        margin: 5% 10% 0 5%; 
         float: left;
-        margin: 10% 10% 0 5%; 
-        height: 60vh;
+    }
+
+
+    /* Media query 800px - Planning Section*/
+
+    #planning-section {
+        height: 75vh;
+    }
+
+    #planning-section-div {
+        background-image: url(../images/plan.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+    }
+
+    #planning-section-text {
+        margin: auto;
+        width:60%;
 
     }
 
