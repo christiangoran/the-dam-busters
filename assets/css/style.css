@@ -11,6 +11,7 @@
         font-family: 'Gentium Book Basic', serif;
         background-color: #3F4E4F;
         font-weight: 300;
+        font-size: 105%;
     }
 
     section {
@@ -327,13 +328,36 @@
     }
 
     #email {
+        all: unset;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 110%;
+        color: rgba(220, 215,201,0.3);
         border: #DCD7C9 solid 2px;
         margin-bottom: 5px;
+        padding-left: 2%;
         height: 40px;
-        width: 320px;
+        width: 245px;
         border-radius: 5px 0 0 5px;
+        background-color: rgba(0, 0, 0, 0.1);
   
     }
+
+    #email:focus-visible {
+        all: unset;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 110%;
+        color: rgba(220, 215,201,0.3);
+        margin-bottom: 5px;
+        padding-left: 2%;
+        height: 40px;
+        width: 245px;
+        border-radius: 5px 0 0 5px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-style:none;
+        border: #C3070F solid 2px;
+  
+    }
+
 
     .newsletter-container>h2 {
         color: #DCD7C9;
@@ -348,7 +372,7 @@
         margin-top: 2px;
         height: 45px;
         font-size: 130%;
-        padding: 10px 20px;
+        padding: 0px 30px 1px 30px;
         border-radius: 0 5px 5px 0;
     }
 
@@ -357,7 +381,7 @@
         background-color: #DCD7C9;
         color: #C3070F;
         font-size: 130%;
-        padding: 10px 20px;
+        padding: 0px 30px;
     }
 
 
