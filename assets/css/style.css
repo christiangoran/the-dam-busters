@@ -440,8 +440,22 @@ th, td {
     width: 300px
 }
 
+/* -------------------------------------
+------------Gallery.html--------------
+--------------------------------------*/
 
-  
+.row {
+    display: flex;
+}
+.column {
+    flex-basis: 25%;
+    margin-bottom: 50px;
+}
+
+.column img {
+    width: 95%;
+    margin: 5px 5px 5px 5px;
+}
 
 
 
@@ -543,6 +557,20 @@ th, td {
         margin-top: 0;
         margin-bottom: 10%;
     }
+
+    /* Media Query 1200px - Gallery page */
+
+   
+     .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .column {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+      
 
 }
 
@@ -773,5 +801,19 @@ th, td {
         font-size: 100%;
         padding: 0px 20px 1px 20px;
     }
+
+
+/* Media query 800px - Gallery page */
+  
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        flex-basis: 90%;
+        margin-bottom: 20px;
+     }
+      
 
 }
