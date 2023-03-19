@@ -200,50 +200,49 @@
         bottom: 2%;
         left: 5%;
         width:45%;
-        
         position: absolute;
         overflow: hidden;
-    
     }
 
 /* The Mission Section */
 
     #mission-section {
-        height: 100vh;
+        height: 110vh;
         width: 100%;
-        position: relative;
         color: #DCD7C9;
-        overflow: hidden;
-        margin-bottom: 5%;
     }
 
     #mission-section-div {
-        background-image: url(../images/control_room.jpg);
-        background-repeat: no-repeat;
-        width: 50%;
-        height: 50vh;
-        background-size: contain;
-        margin: 11% 24%;
+        width: 30%;
+       /* height: 50vh; */
+        margin: 11% 18%;
+        position: relative;
+    }
+
+    #control-room {
+        width: 100%
     }
 
     #mission-section-text {
         background-color: #2C3639;
         padding: 15px;
         position: absolute;
-        width: 30%;
-        right: 15%;
+        width: 300px;
+        margin: 3% 0% 0% 75%;
+  
 
     }
 
 
     #mission2-section-div {
-        background-image: url(../images/training_smaller.jpg);
-        background-repeat: no-repeat;
         width: 50%;
-        height: 36vh;
-        background-size: contain;
+        height: 50vh;
+        margin: -10% 40%;
         position: relative;
-        margin: -15% 40%;
+    }
+
+    #dropping-upkeep {
+        width: 600px;
     }
 
     #mission2-section-text {
@@ -252,7 +251,7 @@
         position: absolute;
         width: 50%;
         margin: 17% -26%;
-        padding: 15px;
+     /*   padding: 15px;*/
 
     }
 
@@ -268,7 +267,6 @@
     #aftermath-section-div {
         background-image: url(../images/destroyed.jpg);
         background-repeat: no-repeat;
-        backface-visibility: 0.4;
         width: 100vw;
         height: 100vh;
         background-size: cover;
@@ -279,7 +277,6 @@
         bottom: 50%;
         left: 20%;
         width:40%;
-        
         position: absolute;
         overflow: hidden;
 
@@ -319,13 +316,16 @@
 
     footer {
         background-color: #2C3639;
-        height: 200px;
+        height: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
     }
+
+    /*.footer-div {
+        margin: 0 0;
+    } */
 
     #email {
         all: unset;
@@ -407,6 +407,7 @@
         font-size: 200%;
     }
 
+
   
 
 
@@ -463,11 +464,15 @@
     }
 
     #ingenuity-section {
-        height: 65vh;
+        height: 70vh;
+    }
+
+    #ingenuity-section-div {
+        height: 70vh;
     }
 
     #fixed-section-div {
-        height: 65vh;
+        height: 70vh;
     }
 
     /* Media query 1200px - Planning Section*/
@@ -478,6 +483,23 @@
         background-attachment: fixed;
  
 
+    }
+
+    /* Media query 1200px - The Night of the Mission Section */
+
+    #dropping-upkeep {
+        width: 450px;
+    }
+
+    /* Media query 1200px - Footer */
+
+    footer {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
     }
 
 }
@@ -543,6 +565,12 @@
         height: 45vh;
     }
 
+    /* Media query 800px - The Dangers section */
+
+    #dangers-section {
+        height: 40vh;
+    }
+
     /* Media query 800px - Ingenuity Section */
 
     #ingenuity-section {
@@ -586,44 +614,35 @@
         height: 110vh;
         width: 100%;
         position: relative;
-        color: #DCD7C9;
-        overflow: hidden;
     }
 
     #mission-section-div {
-        background-image: url(../images/control_room.jpg);
-        background-repeat: no-repeat;
-        width: 50%;
-        height: 50vh;
-        background-size: contain;
-        margin: 10% 6%;
+        width: 330px;
+        margin: 16% 0 150px 2%;
+        height: auto;
     }
 
     #mission-section-text {
-        background-color: #2C3639;
-        padding: 15px;
-        position: absolute;
-        width: 70%;
-        top: 22%;
-        right: 9%;
+        width: 90%;
+        top: 63%;
+        right: -11%;
 
+    }
+
+    #dropping-upkeep {
+        width: 330px;
     }
 
     #mission2-section-div {
-        background-image: url(../images/training_smaller.jpg);
-        background-repeat: no-repeat;
-        width: 80%;
+        width: 230px;
         height: 36vh;
-        background-size: contain;
-        position: relative;
-        margin: auto;
+        margin: 0 5%;
+        
+
     }
 
     #mission2-section-text {
-        background-color: #2C3639;
-        padding: 15px;
-        position: absolute;
-        width: 80%;
+        width: 90%;
         margin: 40% 0%;
         padding: 15px;
 
@@ -661,33 +680,57 @@
     /* Media Query 800px - Summary Section */
 
     #summary-section {
-        height: 70vh;
+        height: 100vh;
     }
         
     #summary {
-        text-align: center;
-        margin: 10% 0 15% 0;
-        color: #DCD7C9;
+        margin: 10% 0 100px 0;
     }
         
     #summary-div {
-        height: 70vh;
-        width: 100%;
+
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
-        align-items: center;
-        color: #DCD7C9;
-        font-size: 110%;
     }
         
         
     #info1, #info2, #info3 {
-        background-color: #A27B5C;
         width: 80%;
         margin-top: 5%;
         height: 65%;
         padding: 20px 20px;
+    }
+
+    /* Media Query 800px - Footer Section */
+
+    footer {
+        height: 35vh;
+    }
+
+    footer div {
+        margin: auto;
+    }
+
+    .footer-icons > li {
+        margin: 1% 15%;
+    }
+
+    .footer-newsletter {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .footer-newsletter h2 {
+        font-size: 130%;
+    }
+
+    #email {
+        width: 80%;
+    }
+
+    .sign-up-button {
+        font-size: 100%;
+        padding: 0px 20px 1px 20px;
     }
 
 }
