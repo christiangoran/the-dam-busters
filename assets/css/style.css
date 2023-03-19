@@ -345,16 +345,6 @@
     }
 
     #email:focus-visible {
-        all: unset;
-        font-family: 'Gentium Book Basic', serif;
-        font-size: 110%;
-        color: rgba(220, 215,201,0.3);
-        margin-bottom: 5px;
-        padding-left: 2%;
-        height: 40px;
-        width: 245px;
-        border-radius: 5px 0 0 5px;
-        background-color: rgba(0, 0, 0, 0.1);
         border-style:none;
         border: #C3070F solid 2px;
   
@@ -457,6 +447,78 @@ th, td {
     margin: 5px 5px 5px 5px;
 }
 
+/* -------------------------------------
+-------------contact.html---------------
+--------------------------------------*/
+
+#contact-section {
+    height: auto;
+    padding: 50px 0;
+}
+
+#contact-us-form {
+    font-family: 'Gentium Book Basic', serif;
+    color: #DCD7C9;
+    font-size: 110%;
+    width: 50%;
+    height: auto;
+    margin: 10% auto;
+}
+
+fieldset {
+    border: #DCD7C9 solid 2px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 30px 40px;
+    font-size: 120%;
+}
+
+#fname, #lname, #form-email, #subject {
+    all: unset;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 80%;
+    color: #DCD7C9;
+    border: #DCD7C9 solid 2px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Gentium Book Basic', serif;
+    margin-bottom: 10px;
+}
+
+#message {
+    all: unset;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 80%;
+    color: #DCD7C9;
+    border: #DCD7C9 solid 2px;
+    font-family: 'Gentium Book Basic', serif;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#button {
+    float: right;
+    font-family: 'Gentium Book Basic', serif;
+    background-color: #A27B5C;
+    color: #DCD7C9;
+    height: 45px;
+    font-size: 110%;
+    padding: 0px 30px 1px 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#button:hover {
+    background-color: #DCD7C9;
+    color: #C3070F;
+}
+
+#fname:focus-visible, #lname:focus-visible, #form-email:focus-visible, #subject:focus-visible, #message:focus-visible  {
+    border-style:none;
+    border: #C3070F solid 2px;
+
+}
 
 
 /*######################################
@@ -570,7 +632,24 @@ th, td {
         flex-basis: 48%;
         margin-bottom: 20px;
     }
-      
+
+    /* Media Query 1200px - Contact us */
+
+    #contact-us-form {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    }
+
+    #newsletter-checkbox {
+        width: 100%;
+        float: left;
+     }
+
+     #button {
+  width: 100%;
+  margin-top: 20px;
+     }
 
 }
 
