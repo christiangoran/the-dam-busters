@@ -45,6 +45,12 @@
 
 /* Navigation */
 
+    .active {
+    font-size: 130%;
+    border-bottom: #C3070F solid 2px;
+    }
+
+
     header {
         height: 110px;
         background-color: #2C3639;
@@ -323,10 +329,6 @@
         align-items: center;
     }
 
-    /*.footer-div {
-        margin: 0 0;
-    } */
-
     #email {
         all: unset;
         font-family: 'Gentium Book Basic', serif;
@@ -391,6 +393,7 @@
         flex-direction: row;
         align-content: space-around;
         justify-content: center;
+        margin-top: 30%;
     }
 
     .footer-icons > li {
@@ -412,7 +415,11 @@
 
 
 
-/* Media Queries */
+/*######################################
+####//////////////\\\\\\\\\\\\\\\\\\####
+## V(-___-)V Media Queries V(-___-)V ###
+####\\\\\\\\\\\\(o_O)///////////////####
+##################################### */
 
 @media screen and (max-width: 1200px) {
 
@@ -500,6 +507,11 @@
         justify-content: space-around;
         align-items: center;
         
+    }
+
+    .footer-icons {
+        margin-top: 0;
+        margin-bottom: 10%;
     }
 
 }
@@ -660,7 +672,6 @@
     #aftermath-section-div {
         background-image: url(../images/destroyed.jpg);
         background-repeat: no-repeat;
-        backface-visibility: 0.4;
         width: 100vw;
         height: 100vh;
         background-size: contain;
