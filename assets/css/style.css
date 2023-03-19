@@ -415,10 +415,19 @@
 ------------Aircrafts.html--------------
 --------------------------------------*/
 
+#aircrafts-section {
+    height: auto;
+}
+#aircrafts-section h2 {
+    color:#DCD7C9;
+    text-align: center;
+    margin-top: 100px;
+}
+
 table {
     color: #DCD7C9;
     background-color:#A27B5C ;
-    margin: 15vh auto;
+    margin: 10vh auto;
 }
 
 th, td {
