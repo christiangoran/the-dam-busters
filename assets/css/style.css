@@ -411,6 +411,27 @@
     }
 
 
+/* -------------------------------------
+------------Aircrafts.html--------------
+--------------------------------------*/
+
+table {
+    color: #DCD7C9;
+    background-color:#A27B5C ;
+    margin: 15vh auto;
+}
+
+th, td {
+    border-color:#A27B5C;
+    background-color: #2C3639;
+    padding: 5px 10px;
+}
+
+.notes {
+    width: 300px
+}
+
+
   
 
 
