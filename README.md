@@ -65,6 +65,8 @@ A contact us page
 A more page, with links to more info and schedule to flying veterans airshows or other events of interests
 404 page
 
+The text in each section is carefully shortned into sizes in large enough bite sizes for the user to be able to stay interesed and keep on reading with the continuation of incremental releases mixed with more traditional text sections to give a balance to the experience.
+
 
 ## Wireframe Mockups and Color Card
 
@@ -83,6 +85,8 @@ When I had the general structure of each page established I moved on to creating
 ![Color and Font-Family Card](https://github.com/christiangoran/the-dam-busters/blob/main/assets/wireframes/Color%20Card%20The%20Dam%20Busters.png)
 
 ## Features
+
+### Normal Features 
 
 - Navigation Bar
   - For the design of the navigation bar is a common design with logo - depicting the emblem of the 617th Squadron involved - to the left and navigation    links to the right, and used througout all the pages as    well as the main page.
@@ -110,6 +114,25 @@ When I had the general structure of each page established I moved on to creating
 
 ![Footer](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/Footer.png)
 
+### Home Page
+
+- Introduction 
+  - The first section offers an exciting introduction for the user to the story of the dam buster raid and comes a scroll down after the the h1 title on    the same hero image. 
+  - The text is increased somewhat in fontsize and line-height to increase readability as the text is on top of the hero-image as well as a way to ease the user into diving further into the story and website.
+  - The larger engaging introduction increases the likelyhood of an intitial positive user experience and a hint showing them that there will be incremental releases further down the page.
+  
+![Hero Image Introduction Text](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/Hero-image-introduction.png)
+
+
+- Section 2: Background
+  - Here we establish ourselves in the actual events and the background that lead up to the bombing raid. 
+
+![Section 2: Background](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/Background%20section.png)
+
+- Section 3: Ingenuity
+  - The user is introduced to the inventor of the bomb that made the entire mission possible, Barnes Willis. The text color changes to black to contrast the wite in the fixed background image with a portrait of Wallis besides the text.
+
+![Section 3: Ingenuity](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/Ingenuity%20Section.png)
 
 ## Story
 
