@@ -4,6 +4,7 @@
         margin: 0;
         border: none;
         padding: 0;
+        scroll-snap-type: y proximity;
     }
 
 
@@ -12,10 +13,10 @@
         background-color: #3F4E4F;
         font-weight: 300;
         font-size: 105%;
+        scroll-snap-type: y proximity;
     }
 
-    section {
-        height: 100vh; 
+    header, section {
         scroll-snap-align: start;
     }
 
