@@ -197,6 +197,13 @@ After establishing the general structure of each page, I moved on to creating a 
 
 ## Future Enhancements
 
+- An interactive section where the user can more actively take part in the learning process by gamification. 
+- To add a slide function to the gallery to be able to view the images in a larger format.
+
+## Testing
+
+
+
 
 
 
