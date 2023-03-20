@@ -238,10 +238,7 @@
         position: absolute;
         width: 300px;
         margin: 3% 0% 0% 75%;
-  
-
     }
-
 
     #mission2-section-div {
         width: 50%;
@@ -494,7 +491,7 @@ fieldset {
     color: #DCD7C9;
     border: #DCD7C9 solid 2px;
     font-family: 'Gentium Book Basic', serif;
-    height: 400px;
+    height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
