@@ -134,23 +134,17 @@ When I had the general structure of each page established I moved on to creating
 
 ![Section 3: Ingenuity](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/Ingenuity%20Section.png)
 
+- Section 4: Dangers
+  - Here again comes a more normal section with white text on top of a darker color that is used throughout the body of the webpage
+
+![Section 4: Dangers](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/The%20Dangers%20section.png)
+
+- Section 5: Planning
+  - Another fixed background section comes up depicting a 2D infographic explaining the technicalities of the attack in an easy to understand way to the user. The white text contrasts the brown details in the bottom of the image. 
+  - A media query for 
+
 ## Story
 
-### Section 1 - Introduction
-Guy Gibson sat in the cockpit of his Lancaster bomber, his heart racing as he descended down towards the lake. He could feel the tension in the air as his crew prepared for the attack on the dam. The water rushed by below, and Gibson could hear the roar of the engines as they approached the target.
-
-
-### Section 2: Background
-
-During World War II, a British engineer named Barnes Wallis came up with a daring plan to destroy the three dams - Möhne, Eder and Sorpe -  that powered the German Industry and cities of the Ruhr Valley. The mission to destroy the dams was code-named "Operation Chastise," but it is better known as the Dam Buster mission. This mission was carried out by a group of British pilots flying specially modified bombers known as Lancaster bombers.
-
-### Section 3: Ingenuity
-
-The Ruhr Valley was a key target for Allied bombing, but it was heavily defended by anti-aircraft guns and fighters. To overcome this challenge, Barnes Wallis designed a spinning bomb that could skip across the surface of the water and explode underwater, causing massive damage to the dam. This bomb was named "Upkeep".
-Barnes Wallis's bomb design was an incredible piece of engineering ingenuity. The bomb was designed to skip across the surface of the water, over torpedo nets and hit the dam at a precise angle, at which point it would sink to the bottom and detonate. Wallis tested the bomb in a special pool and discovered that the bomb had to be spun at a precise speed to skip across the water. He also modified the Lancaster bombers to carry the bomb and to fly at a low altitude.
-
-### Section 4: Dangers
-The planning for the mission was extensive. The pilots had to practice low-level flying and bombing techniques for months before the mission. They also had to rehearse the mission plan repeatedly to ensure that they could carry it out quickly and efficiently. The mission was scheduled for the night of May 16, 1943, and the bombers were divided into three groups, each with a specific target.
 
 ### Section 5: Planning
 
