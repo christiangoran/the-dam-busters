@@ -32,10 +32,11 @@
         
     }
 
-    h2 {
+    h3 {
         font-family: 'Alfa Slab One', serif;
         margin-bottom: 15px;
         letter-spacing: 1px;
+        font-size: 130%;
     }
 
     .center-text {
@@ -147,7 +148,7 @@
         height: 30vh;
     }
 
-    .center-text h2, .center-text p {
+    .center-text h3, .center-text p {
         color: #DCD7C9;
         text-align: center;
     }
@@ -336,9 +337,7 @@
         color: rgba(220, 215,201,0.3);
         border: #DCD7C9 solid 2px;
         margin-bottom: 5px;
-        padding-left: 2%;
         height: 40px;
-        width: 245px;
         border-radius: 5px 0 0 5px;
         background-color: rgba(0, 0, 0, 0.1);
   
@@ -351,7 +350,7 @@
     }
 
 
-    .newsletter-container>h2 {
+    .newsletter-container>h3 {
         color: #DCD7C9;
     }
 
@@ -364,7 +363,7 @@
         margin-top: 2px;
         height: 45px;
         font-size: 130%;
-        padding: 0px 30px 1px 30px;
+        padding: 0px 20px 1px 20px;
         border-radius: 0 5px 5px 0;
     }
 
@@ -373,7 +372,7 @@
         background-color: #DCD7C9;
         color: #C3070F;
         font-size: 130%;
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 
 
@@ -408,7 +407,7 @@
 #aircrafts-section {
     height: auto;
 }
-#aircrafts-section h2 {
+#aircrafts-section h3 {
     color:#DCD7C9;
     text-align: center;
     margin-top: 100px;
@@ -832,7 +831,7 @@ fieldset {
     }
         
     #summary {
-        margin: 10% 0 100px 0;
+        margin: 10% 0 10px 0;
     }
         
     #summary-div {
@@ -868,17 +867,27 @@ fieldset {
         width: 100%;
     }
 
-    .footer-newsletter h2 {
+    .footer-newsletter h3 {
         font-size: 130%;
     }
 
     #email {
         width: 80%;
+        border-radius: 5px;
     }
 
     .sign-up-button {
         font-size: 100%;
         padding: 0px 20px 1px 20px;
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    .sign-up-button:hover {
+        font-size: 100%;
+        padding: 0px 20px 1px 20px;
+        width: 80%;
+        border-radius: 5px;
     }
 
 
