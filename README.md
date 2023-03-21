@@ -5,7 +5,7 @@ Portfolio Project 1
 
 The Dam Buster site is an educational resource created by the Lancaster History Foundation for people who may not be familiar with the incredible story of the 617th RAF squadron and their dam buster raid in 1943, known as Operation Chastise. The target audience is younger people with an interest in aviation history and history in general.
 
-[Website Mockup](../the-dam-busters/assets/readme-media/the-dam-buster-mockup.jpg)
+- [Website Mockup](../the-dam-busters/assets/readme-media/the-dam-buster-mockup.jpg)
 
 ## UX
 
@@ -244,10 +244,9 @@ iOS Safari
   - I managed to sort out most of the issues, but one. The Wave tool still wants a higher contrast between the h1-element and the background. What I did was after testing to change the background to another of the nyanses in the color scheme, without the issue being resolved, I added a black drop shadow to the header text to be able to get the proper contrast against the background color in case the hero-image would not load. However it seem that Wave does not take drop shadow into consideration, and I made the decision to keep the red color with the added drop shadow.
   - The Wave tool also wanted the paragraph "Destroying the Dams of Nazi Germany" to be a header element as well. To resolve this I simply changed the p element to a h2 element instead.
 
-  ## Deployment
+## Deployment
 
   I used GitHub to deploy the site. It can be found here - [The Dam Buster Website](https://christiangoran.github.io/the-dam-busters/index.html)
-
 
 ## Credits:
 
