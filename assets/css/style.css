@@ -703,6 +703,7 @@
 
     #ingenuity-section-div {
         height: 75vh;
+        background-position: left;
     }
 
     #ingenuity-section-div div {
