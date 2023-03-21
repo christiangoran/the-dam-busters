@@ -5,6 +5,8 @@ Portfolio Project 1
 
 The Dam Buster site is an educational resource created by the Lancaster History Foundation for people who may not be familiar with the incredible story of the 617th RAF squadron and their dam buster raid in 1943, known as Operation Chastise. The target audience is younger people with an interest in aviation history and history in general.
 
+![Website mockup](../the-dam-busters/assets/readme-media/the-dam-buster-mockup.jpg)
+
 ## UX
 
 ### The Importance of the website
@@ -187,7 +189,7 @@ After establishing the general structure of each page, I moved on to creating a 
 - The required fields for the user to fill in are; First name, last name, email, subject and finally the message itself. 
 - Here once again the user is presented with an option to easily cross the checkbox the sign up to the newsletter, thereby further increasing the amount of followrs of the foundation.
 
-!|Contact Us page](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/contact%20us%20page.png)
+![Contact Us page](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/contact%20us%20page.png)
 
 ### Hidden Pages
 
@@ -202,6 +204,26 @@ After establishing the general structure of each page, I moved on to creating a 
 
 ## Testing
 
+I used continuous testing of the site while developing it. After making some changes, I would use the FireFox Inspector to inspect the styling in different screen sizes before moving on. Additionally, I used the browser inspector tool to try out different settings before adding them directly to the CSS or HTML file. This helped me complete each section to a satisfactory level before moving on to the next part of development.
+
+For testing I used the following devices/browsers:
+
+Desktop computer: 3456 x 2234p
+Google Chrome
+Firefox
+Mac OS Safari
+
+iPhone 11: 828 x 1792 display
+iOS Safari
+
+- position: relative/fixed
+  - I had a problem with the hero image. Since I have a background image with a relative section and then a png image with fixed position, I had a problem with the site being wider than the browser so sidescrolling was possible. I had to go through the css with comments marks and isolate every rule to see where the side scrolling appeared.
+
+- Text in fixed position
+  - In the planning section I wanted to text to be in a fixed position together with the image. However after spending almost a day trying to solve it using W3Schools tutorials and Youtube videos as well as tutor support, I was unable to solve it. After finally giving myself a 2 hour deadline without solving it, I decided to move on to next section of the site.
+
+- I had a very valuable experience where I without knowing better, started updating the README file directly in GitHub instead of GitPod, while simultaneously working with the code in GitPod and git pushing changes. This resulted in an error when I had two branches. It was resolved with the help of Tutor support and the merging of the branches. 
+
 ## Validator Testing
 
 - HTML  
@@ -212,28 +234,44 @@ After establishing the general structure of each page, I moved on to creating a 
 
 ![W3C Test badge](https://jigsaw.w3.org/css-validator/images/vcss-blue)
 
+- Lighthouse
+  - I generated a Lighthouse Google Chrome Extension test report. At first the performance of the site was down at a orange score of 74 while the second lowest, Accessabillity landed at 97 points. After quite a bit of down sizing of images, uploading, comitting, pushing, waiting and testing I managed to push the performance score up in the green with 93 points. 
+
+  ![Lighthouse Report](../the-dam-busters/assets/readme-media/lighthouse-results.png)
+
+- Wave report 
+  - I also did a run with Web Accessibillity Evaluation Tool - Wave and landed with quite a bit of contrasting issues as well as missing h1 elements on the sub pages.
+  - I managed to sort out most of the issues, but one. The Wave tool still wants a higher contrast between the h1-element and the background. What I did was after testing to change the background to another of the nyanses in the color scheme, without the issue being resolved, I added a black drop shadow to the header text to be able to get the proper contrast against the background color in case the hero-image would not load. However it seem that Wave does not take drop shadow into consideration, and I made the decision to keep the red color with the added drop shadow.
+  - The Wave tool also wanted the paragraph "Destroying the Dams of Nazi Germany" to be a header element as well. To resolve this I simply changed the p element to a h2 element instead.
+
+  ## Deployment
+
+  I used GitHub to deploy the site. It can be found here - [The Dam Buster Website](https://christiangoran.github.io/the-dam-busters/index.html)
 
 
+## Credits:
 
-Errors:
+- Special thanks to my mentor Garreth McGirr for the tips and guidance on the project.
 
-position: relative/fixed
-I had a problem with the hero image. Since I have a background image with a relative section and then a png image with fixed position, I had a problem with the site being wider than the browser so sidescrolling was possible. I had to go through the css with comments marks and isolate every rule to see where the side scrolling appeared.
+- I used https://www.fontpair.com to find a matching font pair for the project.
 
-Credits:
+- I used https://www.upscale.media to upscale low res images.
 
-Special thanks to my mentor Garreth McGirr for the tips and guidance.
+- I learned flexbox from https://www.flexboxfroggy.com 
 
-I used https://www.fontpair.com to find a matching font pair for the project.
+- And used some code from https://www.w3schools.com/css/css3_flexbox_responsive.asp for the gallery page.
 
-I used https://www.upscale.media to upscale low res images.
+- https://en.wikipedia.org/wiki/Operation_Chastise was used for gathering some of the information used on the website.
 
-I learned flexbox from www.flexboxfroggy.com .
+- https://www.iwm.org.uk/history/the-incredible-story-of-the-dambusters-raid was used to gather image resources.
 
-And used some code from https://www.w3schools.com/css/css3_flexbox_responsive.asp for the gallery page.
+- I used https://colorhunt.co/ to find a suitable color scheme to start working with.
+  - found that site via a fellow Code Institute students project https://designland.herokuapp.com/
 
-https://en.wikipedia.org/wiki/Operation_Chastise was used for gathering some of the information used on the website.
+- As a general reference material throughout the site, https://www.w3schools.com was used quite a bit.
 
-https://www.iwm.org.uk/history/the-incredible-story-of-the-dambusters-raid was used to gather image resources.
+- Font Awesome was used for the social media link icons.
 
-(I used https://colorhunt.co/ to find a suitable color scheme to start working with and found that site via a fellow Code Institute students project https://designland.herokuapp.com/)
+- Thanks to the artist Mark Postlethwaite for his amazing aviation historical artworks that inspired me to make this website.
+
+- Thank you to Piotr Forkasiewicz for his splendid computer render of the event that I am using as a hero image on the web site.
