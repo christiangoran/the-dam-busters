@@ -5,7 +5,7 @@ Portfolio Project 1
 
 The Dam Buster site is an educational resource created by the Lancaster History Foundation for people who may not be familiar with the incredible story of the 617th RAF squadron and their dam buster raid in 1943, known as Operation Chastise. The target audience is younger people with an interest in aviation history and history in general.
 
-- [Website Mockup](../the-dam-busters/assets/readme-media/the-dam-buster-mockup.jpg)
+![Website mockup](https://github.com/christiangoran/the-dam-busters/blob/main/assets/readme-media/the-dam-buster-mockup.jpg)
 
 ## UX
 
