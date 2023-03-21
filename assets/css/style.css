@@ -146,7 +146,8 @@
         left: 10%;
     }
 
-    #title-position p {
+    #title-position>h2 {
+        font-family: 'Gentium Book Basic', serif;
         color: #DCD7C9;
         font-size: 150%;
     }
