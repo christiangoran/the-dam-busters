@@ -5,6 +5,7 @@
     border: none;
     padding: 0;
     scroll-snap-type: y proximity;
+    scroll-snap-align: start;
  }
 
 
@@ -418,7 +419,7 @@
 ------------Gallery.html--------------
 --------------------------------------*/
 
-    .row {
+    #gallery-div {
         display: flex;
     }
 
@@ -590,7 +591,7 @@
 
  /* Media Query 1200px - Gallery page */
   
-    .row {
+    #gallery-div {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -868,10 +869,18 @@
         margin-bottom: 10px;
     }
 
+/* Media query 800px - Aircrafts page */    
+
+#aircrafts-section {
+    width: 90%;
+    font-size: 80%;
+    text-align: center;
+    margin: -10% auto auto 5%;
+}
 
 /* Media query 800px - Gallery page */
   
-    .row {
+    #gallery-div {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -881,5 +890,6 @@
         margin-bottom: 20px;
      }
       
+
 
 }
