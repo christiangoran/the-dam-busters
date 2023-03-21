@@ -32,7 +32,7 @@
         letter-spacing: 3px;
         font-size: 320%;
         line-height: 45px;
-        text-shadow: 0 0 3px #2C3639, 0 0 5px #0000FF;
+        text-shadow: 0 0 3px #2C3639, 0 0 5px black;
       /*  text-shadow: 2px 2px #2C3639; */
         
     }
@@ -59,6 +59,20 @@
     .center-text h2, .center-text p {
         color: #DCD7C9;
         text-align: center;
+    }
+
+    #hero-image-section {
+        background-image: url(../images/subpage-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+    }
+
+    #subpage-title-position {
+        position: absolute;
+        margin: 20% 0 0 10%;
+        text-shadow: 0 0 3px #2C3639, 0 0 5px black;
     }
 
 /* Navigation */
