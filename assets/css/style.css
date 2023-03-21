@@ -32,6 +32,8 @@
         letter-spacing: 3px;
         font-size: 320%;
         line-height: 45px;
+        text-shadow: 0 0 3px #2C3639, 0 0 5px #0000FF;
+      /*  text-shadow: 2px 2px #2C3639; */
         
     }
 
@@ -320,6 +322,8 @@
 
     footer {
         background-color: #2C3639;
+        font-family: 'Gentium Book Basic', serif;
+        color: #DCD7C9;
         height: 300px;
         display: flex;
         flex-direction: row;
@@ -351,7 +355,7 @@
     #sign-up-button {
         font-family: 'Gentium Book Basic', serif;
         background-color: #A27B5C;
-        color: #DCD7C9;
+        color: #2C3639;
         margin-top: 2px;
         height: 45px;
         font-size: 130%;
@@ -490,7 +494,7 @@
         float: right;
         font-family: 'Gentium Book Basic', serif;
         background-color: #A27B5C;
-        color: #DCD7C9;
+        color: #2C3639;
         height: 45px;
         font-size: 110%;
         padding: 0px 30px 1px 30px;
@@ -688,7 +692,7 @@
 
     #background-text-section {
         height: 45vh;
-        padding: 15% 10% 15% 10%;
+        padding: 15% 10%;
     }
 
  /* Media query 800px - The Dangers section */
