@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gentium+Book+Basic&display=swap');
 
 * {
-        margin: 0;
-        border: none;
-        padding: 0;
-        scroll-snap-type: y proximity;
-    }
+    margin: 0;
+    border: none;
+    padding: 0;
+    scroll-snap-type: y proximity;
+ }
 
 
     body {
@@ -34,6 +34,13 @@
         
     }
 
+    h2 {
+        font-family: 'Alfa Slab One', serif;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        font-size: 130%;
+    }
+
     h3 {
         font-family: 'Alfa Slab One', serif;
         margin-bottom: 15px;
@@ -44,6 +51,11 @@
     .center-text {
         margin: auto;
         width: 40vw;
+    }
+
+    .center-text h2, .center-text p {
+        color: #DCD7C9;
+        text-align: center;
     }
 
 /* Navigation */
@@ -94,29 +106,24 @@
 
 /* Hero image composition */
 
-
-    #hero-image {
+    #hero-section {
         background-image: url(../images/background_high.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200vh;
         width: 100%;
         position: relative;
         overflow: hidden;
-
     }
 
-    #lancaster-section-div {
+    #hero-section-div {
         background-image: url(../images/plane_isolated.png);
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
         height: 200vh;
         background-attachment: fixed;
-        background-size: contain;
-        
+        background-size: contain;   
     }
-
 
     #title-position {
         position: relative;
@@ -151,16 +158,10 @@
         height: 30vh;
     }
 
-    .center-text h3, .center-text p {
-        color: #DCD7C9;
-        text-align: center;
-    }
-
 /* Ingenuity Section */
 
     #ingenuity-section {
         height: 80vh;
-        width: 100%;
         position: relative;
         overflow: hidden;
         color: #2C3639;
@@ -170,7 +171,6 @@
         background-image: url(../images/wallis2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
         height: 80vh;
         background-attachment: fixed;
     }
@@ -194,7 +194,6 @@
 
     #planning-section {
         height: 100vh;
-        width: 100%;
         position: relative;
         color: #DCD7C9;
         overflow: hidden;
@@ -202,7 +201,6 @@
 
     #planning-section-div {
         background-image: url(../images/plan.jpg);
-        width: 100%;
         height: 100vh;
         background-size: cover;
         background-attachment: fixed;
@@ -226,7 +224,6 @@
 
     #mission-section-div {
         width: 30%;
-       /* height: 50vh; */
         margin: 11% 18%;
         position: relative;
     }
@@ -243,7 +240,7 @@
         margin: 3% 0% 0% 75%;
     }
 
-    #mission2-section-div {
+    #mission-section-div2 {
         width: 50%;
         height: 50vh;
         margin: -10% 40%;
@@ -254,21 +251,18 @@
         width: 600px;
     }
 
-    #mission2-section-text {
+    #mission-section-text2 {
         background-color: #2C3639;
         padding: 15px;
         position: absolute;
         width: 50%;
         margin: 17% -26%;
-     /*   padding: 15px;*/
-
     }
 
 /* The Aftermath Section */
 
     #aftermath-section {
         height: 100vh;
-        width: 100vw;
         position: relative;
         color: #2C3639
     }
@@ -276,7 +270,6 @@
     #aftermath-section-div {
         background-image: url(../images/destroyed.jpg);
         background-repeat: no-repeat;
-        width: 100vw;
         height: 100vh;
         background-size: cover;
         background-attachment: fixed;
@@ -288,31 +281,28 @@
         width:40%;
         position: absolute;
         overflow: hidden;
-
     }
 
-    /* Summary Section */
+/* Summary Section */
 
     #summary-section {
-    height: 70vh;
+    height: auto;
     }
 
-    #summary {
+    #summary-header {
         text-align: center;
-        margin: 10% 0 0 0;
+        margin: 5% 0 0 0;
         color: #DCD7C9;
     }
 
-    #summary-div {
+    #summary-section-div {
         height: 70vh;
-        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: #DCD7C9;
         font-size: 110%;
     }
-
 
     #info1, #info2, #info3 {
         background-color: #A27B5C;
@@ -321,7 +311,7 @@
         padding: 20px 20px;
     }
 
-    /* Footer Section */
+/* Footer Section */
 
     footer {
         background-color: #2C3639;
@@ -342,23 +332,18 @@
         height: 40px;
         border-radius: 5px 0 0 5px;
         background-color: rgba(0, 0, 0, 0.1);
-  
     }
 
     #email:focus-visible {
         border-style:none;
         border: #C3070F solid 2px;
-  
     }
 
-
-    .newsletter-container>h3 {
+    #newsletter-container>h2 {
         color: #DCD7C9;
     }
 
-
-
-    .sign-up-button {
+    #sign-up-button {
         font-family: 'Gentium Book Basic', serif;
         background-color: #A27B5C;
         color: #DCD7C9;
@@ -369,15 +354,13 @@
         border-radius: 0 5px 5px 0;
     }
 
-    .sign-up-button:hover {
+    #sign-up-button:hover {
         font-family: 'Gentium Book Basic', serif;
         background-color: #DCD7C9;
         color: #C3070F;
         font-size: 130%;
         padding: 0px 20px;
     }
-
-
 
     .footer-icons {
         display: flex;
@@ -390,7 +373,6 @@
     .footer-icons > li {
         list-style-type: none;
         margin: 1% 40%;
-
     }
 
     .footer-icons a {
@@ -406,120 +388,121 @@
 ------------Aircrafts.html--------------
 --------------------------------------*/
 
-#aircrafts-section {
-    height: auto;
-}
-#aircrafts-section h3 {
-    color:#DCD7C9;
-    text-align: center;
-    margin-top: 100px;
-}
+    #aircrafts-section {
+        height: auto;
+    }
 
-table {
-    color: #DCD7C9;
-    background-color:#A27B5C ;
-    margin: 10vh auto;
-}
+    #aircrafts-section h2 {
+        color:#DCD7C9;
+        text-align: center;
+        margin-top: 100px;
+    }
 
-th, td {
-    border-color:#A27B5C;
-    background-color: #2C3639;
-    padding: 5px 10px;
-}
+    table {
+        color: #DCD7C9;
+        background-color:#A27B5C ;
+        margin: 10vh auto;
+    }
 
-.notes {
-    width: 300px
-}
+    th, td {
+        border-color:#A27B5C;
+        background-color: #2C3639;
+        padding: 5px 10px;
+    }
+
+    .notes {
+        width: 300px
+    }
 
 /* -------------------------------------
 ------------Gallery.html--------------
 --------------------------------------*/
 
-.row {
-    display: flex;
-}
-.column {
-    flex-basis: 25%;
-    margin-bottom: 50px;
-}
+    .row {
+        display: flex;
+    }
 
-.column img {
-    width: 95%;
-    margin: 5px 5px 5px 5px;
-}
+    .column {
+        flex-basis: 25%;
+        margin-bottom: 50px;
+    }
+
+    .column img {
+        width: 95%;
+        margin: 5px 5px 5px 5px;
+    }
 
 /* -------------------------------------
 -------------contact.html---------------
 --------------------------------------*/
 
-#contact-section {
-    height: auto;
-    padding: 50px 0;
-}
+    #contact-section {
+        height: auto;
+        padding: 50px 0;
+    }
 
-#contact-us-form {
-    font-family: 'Gentium Book Basic', serif;
-    color: #DCD7C9;
-    font-size: 110%;
-    width: 50%;
-    height: auto;
-    margin: 10% auto;
-}
+    #contact-us-form {
+        font-family: 'Gentium Book Basic', serif;
+        color: #DCD7C9;
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+        margin: 10% auto;
+    }
 
-fieldset {
-    border: #DCD7C9 solid 2px;
-    border-radius: 5px 5px 5px 5px;
-    padding: 30px 40px;
-    font-size: 120%;
-}
+    fieldset {
+        border: #DCD7C9 solid 2px;
+        border-radius: 5px 5px 5px 5px;
+        padding: 30px 40px;
+        font-size: 120%;
+    }
 
-#fname, #lname, #form-email, #subject {
-    all: unset;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    font-size: 80%;
-    color: #DCD7C9;
-    border: #DCD7C9 solid 2px;
-    width: 100%;
-    height: 50px;
-    font-family: 'Gentium Book Basic', serif;
-    margin-bottom: 10px;
-}
+    #fname, #lname, #form-email, #subject {
+        all: unset;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.1);
+        font-size: 80%;
+        color: #DCD7C9;
+        border: #DCD7C9 solid 2px;
+        width: 100%;
+        height: 50px;
+        font-family: 'Gentium Book Basic', serif;
+        margin-bottom: 10px;
+    }
 
-#message {
-    all: unset;
-    border-radius: 5px 0 0 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    font-size: 80%;
-    color: #DCD7C9;
-    border: #DCD7C9 solid 2px;
-    font-family: 'Gentium Book Basic', serif;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-}
+    #message {
+        all: unset;
+        border-radius: 5px 0 0 5px;
+        background-color: rgba(0, 0, 0, 0.1);
+        font-size: 80%;
+        color: #DCD7C9;
+        border: #DCD7C9 solid 2px;
+        font-family: 'Gentium Book Basic', serif;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
 
-#button {
-    float: right;
-    font-family: 'Gentium Book Basic', serif;
-    background-color: #A27B5C;
-    color: #DCD7C9;
-    height: 45px;
-    font-size: 110%;
-    padding: 0px 30px 1px 30px;
-    border-radius: 5px 5px 5px 5px;
-}
+    #button {
+        float: right;
+        font-family: 'Gentium Book Basic', serif;
+        background-color: #A27B5C;
+        color: #DCD7C9;
+        height: 45px;
+        font-size: 110%;
+        padding: 0px 30px 1px 30px;
+        border-radius: 5px 5px 5px 5px;
+    }
 
-#button:hover {
-    background-color: #DCD7C9;
-    color: #C3070F;
-}
+    #button:hover {
+        background-color: #DCD7C9;
+        color: #C3070F;
+    }
 
-#fname:focus-visible, #lname:focus-visible, #form-email:focus-visible, #subject:focus-visible, #message:focus-visible  {
-    border-style:none;
-    border: #C3070F solid 2px;
-
-}
+    #fname:focus-visible, #lname:focus-visible, #form-email:focus-visible, #subject:focus-visible, #message:focus-visible  {
+        border-style:none;
+        border: #C3070F solid 2px;
+    }
 
 
 /*######################################
@@ -530,16 +513,15 @@ fieldset {
 
 @media screen and (max-width: 1200px) {
 
-    /* Media query 1200px - Hero Image section */
+/* Media query 1200px - Hero Image section */
 
-    #hero-image {
+    #hero-section {
         background-image: url(../images/small_screen_bg.jpg);
         background-size: cover;
         height: 120vh;
-
     }
 
-    #lancaster-section-div {
+    #hero-section-div {
         background: none;
     }
 
@@ -558,7 +540,7 @@ fieldset {
         line-height: 110%;
     }
 
-    /* Media query 1200px - Intro text section */
+/* Media query 1200px - Intro text section */
 
     #background-text-section {
         padding: 15% 10%;
@@ -571,11 +553,7 @@ fieldset {
         width: 60vw;
     }
 
-    /* Media query 1200px  - Ingenuity Section */
-
-    #fixed-section-div div {
-        margin-top: 5%;
-    }
+/* Media query 1200px  - Ingenuity Section */
 
     #ingenuity-section {
         height: 70vh;
@@ -585,35 +563,24 @@ fieldset {
         height: 70vh;
     }
 
-    #fixed-section-div {
-        height: 70vh;
-    }
-
-    /* Media query 1200px - Planning Section*/
+/* Media query 1200px - Planning Section*/
 
     #planning-section-div {
         background-image: url(../images/plan.jpg);
         background-size: cover;
         background-attachment: fixed;
- 
-
     }
 
-    /* Media query 1200px - The Night of the Mission Section */
+/* Media query 1200px - The Night of the Mission Section */
 
     #dropping-upkeep {
         width: 450px;
     }
 
-    /* Media query 1200px - Footer */
+/* Media query 1200px - Footer */
 
     footer {
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        
+        flex-direction: column;     
     }
 
     .footer-icons {
@@ -621,10 +588,9 @@ fieldset {
         margin-bottom: 10%;
     }
 
-    /* Media Query 1200px - Gallery page */
-
-   
-     .row {
+ /* Media Query 1200px - Gallery page */
+  
+    .row {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -634,7 +600,7 @@ fieldset {
         margin-bottom: 20px;
     }
 
-    /* Media Query 1200px - Contact us */
+ /* Media Query 1200px - Contact us */
 
     #contact-us-form {
     width: 90%;
@@ -658,7 +624,7 @@ fieldset {
 @media screen and (max-width: 800px) {
 
 
-    /* Media query 800px - Navigation */
+/* Media query 800px - Navigation */
 
     #logo {
         height: 4vh;
@@ -671,7 +637,6 @@ fieldset {
     }
 
     #navigation li {
-
         margin-right: 5px;
         top: 50%;
         font-size: 80%;
@@ -682,14 +647,17 @@ fieldset {
         width: 80%;
     }
 
-    /* Media query 800px - Hero Image */
+ /* Media query 800px - Hero Image */
 
-    #hero-image {
+    #hero-section {
         background-image: url(../images/small_screen_bg.jpg);
-        background-size: cover;
+        background-size: contain;
         background-position: top;
-        height: 80vh;
+        height: 95vh;
+    }
 
+    #hero-section-div {
+        height: 80vh;
     }
 
     h1 {
@@ -706,23 +674,27 @@ fieldset {
     }
 
     #introduction {
-        top: 17%;
+        top: 42%;
         width: 80%;
+        background:rgba(44, 54, 57,0.7);
+        padding: 5px;
+
     }
 
-    /* Media query 800px - Background text section */
+/* Media query 800px - Background text section */
 
     #background-text-section {
         height: 45vh;
+        padding: 0 10% 15% 10%;
     }
 
-    /* Media query 800px - The Dangers section */
+ /* Media query 800px - The Dangers section */
 
     #dangers-section {
         height: 40vh;
     }
 
-    /* Media query 800px - Ingenuity Section */
+ /* Media query 800px - Ingenuity Section */
 
     #ingenuity-section {
         height: 75vh;
@@ -743,7 +715,7 @@ fieldset {
     }
 
 
-    /* Media query 800px - Planning Section*/
+/* Media query 800px - Planning Section*/
 
     #planning-section {
         height: 75vh;
@@ -758,12 +730,14 @@ fieldset {
 
     #planning-section-text {
         margin: auto;
-        width:60%;
+        width:80%;
+        background:rgba(44, 54, 57,0.7);
+        padding: 5px;
 
     }
 
 
-    /* Media query 800px - The Night of the Mission */
+/* Media query 800px - The Night of the Mission */
 
     #mission-section {
         height: 110vh;
@@ -781,29 +755,25 @@ fieldset {
         width: 90%;
         top: 63%;
         right: -11%;
-
     }
 
     #dropping-upkeep {
         width: 330px;
     }
 
-    #mission2-section-div {
+    #mission-section-div2 {
         width: 230px;
         height: 36vh;
         margin: 0 5%;
-        
-
     }
 
-    #mission2-section-text {
+    #mission-section-text2 {
         width: 90%;
         margin: 40% 0%;
         padding: 15px;
-
     }
 
-    /* Media query 800px - The Aftermath Section */
+/* Media query 800px - The Aftermath Section */
 
     #aftermath-section {
         height: 100vh;
@@ -824,25 +794,25 @@ fieldset {
     #aftermath-section-text {
         bottom: 10%;
         left: 5%;
-        width:80%;
-        
+        width:80%;      
         position: absolute;
         overflow: hidden;
+        background:rgba(44, 54, 57,0.7);
+        padding: 5px;
 
     }
 
-    /* Media Query 800px - Summary Section */
+ /* Media Query 800px - Summary Section */
 
     #summary-section {
         height: 100vh;
     }
         
-    #summary {
+    #summary-header {
         margin: 10% 0 10px 0;
     }
         
-    #summary-div {
-
+    #summary-section-div {
         display: flex;
         flex-direction: column;
     }
@@ -855,52 +825,47 @@ fieldset {
         padding: 20px 20px;
     }
 
-    /* Media Query 800px - Footer Section */
+/* Media Query 800px - Footer Section */
 
     footer {
         height: 35vh;
-    }
-
-    footer div {
-        margin: auto;
     }
 
     .footer-icons > li {
         margin: 1% 15%;
     }
 
-    .footer-newsletter {
-        margin: 0 0 0 0;
-        width: 100%;
-    }
-
-    .newsletter-container {
+    #newsletter-container {
         display: flex;
         flex-direction: column;
-
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer-newsletter h3 {
+    #footer-newsletter h2 {
         font-size: 130%;
     }
 
     #email {
         width: 80%;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
 
-    .sign-up-button {
+    #sign-up-button {
         font-size: 100%;
         padding: 0px 20px 1px 20px;
         width: 80%;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
 
-    .sign-up-button:hover {
+    #sign-up-button:hover {
         font-size: 100%;
         padding: 0px 20px 1px 20px;
         width: 80%;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
 
 
