@@ -672,7 +672,6 @@
 
     #hero-section {
         background-image: url(../images/small_screen_bg.jpg);
-        background-size: contain;
         background-position: top;
         height: 80vh;
     }
@@ -913,6 +912,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    #hero-section {
+        background-size: contain;
+    }
 
     #introduction {
         top: 45%;
