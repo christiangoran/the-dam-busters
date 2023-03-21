@@ -11,7 +11,7 @@
 
     body {
         font-family: 'Gentium Book Basic', serif;
-        background-color: #DCD7C9;
+        background-color: #3F4E4F;
         font-weight: 300;
         font-size: 105%;
         scroll-snap-type: y proximity;
@@ -111,7 +111,6 @@
         background-image: url(../images/background_high.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
         position: relative;
         overflow: hidden;
     }
@@ -120,7 +119,6 @@
         background-image: url(../images/plane_isolated.png);
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
         height: 200vh;
         background-attachment: fixed;
         background-size: contain;   
@@ -163,6 +161,7 @@
 /* Ingenuity Section */
 
     #ingenuity-section {
+        background-color: #DCD7C9;
         height: 80vh;
         position: relative;
         overflow: hidden;
@@ -265,6 +264,7 @@
 /* The Aftermath Section */
 
     #aftermath-section {
+        background-color: #DCD7C9;
         height: 100vh;
         position: relative;
         color: #2C3639
@@ -394,7 +394,7 @@
 --------------------------------------*/
 
     #aircrafts-section {
-        height: auto;
+        width: 90%;
     }
 
     #aircrafts-section h2 {
@@ -677,7 +677,7 @@
     }
 
     #introduction {
-        top: 42%;
+        top: 57%;
         width: 80%;
         background:rgba(44, 54, 57,0.7);
         padding: 5px;
@@ -688,7 +688,7 @@
 
     #background-text-section {
         height: 45vh;
-        padding: 0 10% 15% 10%;
+        padding: 15% 10% 15% 10%;
     }
 
  /* Media query 800px - The Dangers section */
@@ -875,8 +875,7 @@
 /* Media query 800px - Aircrafts page */    
 
 #aircrafts-section {
-    width: 90%;
-    font-size: 80%;
+    font-size: 70%;
     text-align: center;
     margin: -10% auto auto 5%;
 }
@@ -893,6 +892,11 @@
         margin-bottom: 20px;
      }
       
+}
 
+@media screen and (max-width: 600px) {
 
+    #introduction {
+        top: 45%;
+    }
 }
