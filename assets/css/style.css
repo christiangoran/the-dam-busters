@@ -68,7 +68,7 @@
 
 
     header {
-        height: auto;
+        height: 110px;
         background-color: #2C3639;
     }
 
@@ -421,6 +421,7 @@
 
     #gallery-div {
         display: flex;
+        margin-top: 100px;
     }
 
     .column {
@@ -437,10 +438,6 @@
 -------------contact.html---------------
 --------------------------------------*/
 
-    #contact-section {
-        height: auto;
-        padding: 50px 0;
-    }
 
     #contact-us-form {
         font-family: 'Gentium Book Basic', serif;
@@ -448,7 +445,7 @@
         font-size: 110%;
         width: 50%;
         height: auto;
-        margin: 10% auto;
+        margin: 100px auto;
     }
 
     fieldset {
@@ -482,6 +479,7 @@
         height: 200px;
         width: 100%;
         margin-bottom: 15px;
+        resize: vertical;
     }
 
     #button {

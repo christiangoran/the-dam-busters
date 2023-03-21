@@ -20,83 +20,85 @@
     <!-- Navbar -->
     
     <header>
-    <a href="index.html">
-        <img id="logo" src="assets/images/617_squadron.png" alt="No.617 Squadron Badge">
-    </a>
+        <a href="index.html">
+            <img id="logo" src="assets/images/617_squadron.png" alt="No.617 Squadron Badge">
+        </a>
 
-    <nav id="navigation">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="aircrafts.html">Aircrafts</a>
-            </li>
-            <li>
-                <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a href="contact.html" class="active">Contact</a>
-            </li>
-        </ul>
-    </nav>
-  
-
-    </header>
-
-        <!-- Hero Image, Title & Intro text section -->
-
-        <section id="hero-section">
-
-            <div id="hero-section-div">
+        <nav id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aircrafts.html">Aircrafts</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+            </ul>
+        </nav>
     
-                <div id="title-position"> 
-                    <h1><span id="the">The</span><br>Dam<br> Busters</h1>
-                    <p>Contact Form</p>
-                </div>
-        
-        
-                <div id="introduction">
-                    <p>
-                        If you have any questions do not hesitate to contact us!
-                </div>
-        
+     </header>
+
+        <!-- Hero Image, Title & Intro text section
+
+    <section id="hero-section">
+
+        <div id="hero-section-div">
+
+            <div id="title-position"> 
+                <h1><span id="the">The</span><br>Dam<br> Busters</h1>
+                <p>Contact Form</p>
             </div>
     
-        </section>
+    
+            <div id="introduction">
+                <p>
+                    If you have any questions do not hesitate to contact us!
+            </div>
+    
+        </div>
+    
+    </section>  -->
 
     <!-- Form section  -->
 
-    <section id="contact-section">
+    <section id="aircrafts-section">
 
-                <form id="contact-us-form" method="get" action="thankyou.html" >
+        <h2>Contact</h2>
 
-                    <fieldset>
-                        <legend> Contact Us </legend>
+        <form id="contact-us-form" method="get" action="thankyou.html" >
 
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="fname" placeholder="Clark" required>
+            <fieldset>
+                <legend> Contact Form </legend>
 
-                    <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" name="lname" placeholder="Kent" required>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Clark" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="form-email" name="email" placeholder="clark.kent@yahoo.com" required>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Kent" required>
 
-                    <label for="subject">Subject:</label>
-                    <input id="subject" name="subject" type="text" required class="text-input" placeholder="Tell us what your message is about?" maxlength="100">
+                <label for="email">Email:</label>
+                <input type="email" id="form-email" name="email" placeholder="clark.kent@yahoo.com" required>
 
-                    <label for="message">Your message:</label>
-                    <input type="text" id="message" name="message" placeholder="Write your message here" required>
+                <label for="subject">Subject:</label>
+                <input id="subject" name="subject" type="text" required class="text-input" 
+                placeholder="Tell us what your message is about?" maxlength="100">
 
-                    <label for="checkbox">I would like to sign up for a newsletter:</label>
-                    <input type="checkbox" id="newsletter-checkbox" name="newsletter-checkbox">
+                <label for="message">Your message:</label>
+                <textarea type="text" id="message" name="message" placeholder="Write your message here" required></textarea>
 
-                    <input type="submit" id="button" value="Send" >
+                <label for="checkbox">I would like to sign up for a newsletter:</label>
+                <input type="checkbox" id="newsletter-checkbox" name="newsletter-checkbox">
 
-                </fieldset>
+                <input type="submit" id="button" value="Send" >
 
-                </form>
+        </fieldset>
+
+        </form>
 
     </section>
    
