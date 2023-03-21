@@ -202,7 +202,15 @@ After establishing the general structure of each page, I moved on to creating a 
 
 ## Testing
 
+## Validator Testing
 
+- HTML  
+  - No errors returned when passing through the official W3C Validator.
+
+- CSS
+  - No errors returned when passing through the official W3C Validator.
+
+![W3C Test badge](https://jigsaw.w3.org/css-validator/images/vcss-blue)
 
 
 
