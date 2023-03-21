@@ -11,7 +11,7 @@
 
     body {
         font-family: 'Gentium Book Basic', serif;
-        background-color: #3F4E4F;
+        background-color: #DCD7C9;
         font-weight: 300;
         font-size: 105%;
         scroll-snap-type: y proximity;
@@ -157,6 +157,7 @@
     #background-text-section {
         padding: 15vh 20vw;
         height: 30vh;
+        background-color:#3F4E4F;
     }
 
 /* Ingenuity Section */
@@ -189,6 +190,7 @@
     #dangers-section {
         padding: 15vh 20vw;
         height: 30vh;
+        background-color: #3F4E4F;
     }
 
 /* The Planning Section */
@@ -218,14 +220,14 @@
 /* The Mission Section */
 
     #mission-section {
-        height: 110vh;
-        width: 100%;
         color: #DCD7C9;
+        background-color: #3F4E4F;
+        padding: 3% 0;
     }
 
     #mission-section-div {
         width: 30%;
-        margin: 11% 18%;
+        margin: 8% 18%;
         position: relative;
     }
 
@@ -243,7 +245,7 @@
 
     #mission-section-div2 {
         width: 50%;
-        height: 50vh;
+        height: 60vh;
         margin: -10% 40%;
         position: relative;
     }
@@ -288,6 +290,8 @@
 
     #summary-section {
     height: auto;
+    background-color: #3F4E4F;
+    padding: 3% 0;
     }
 
     #summary-header {
@@ -306,7 +310,7 @@
     }
 
     #info1, #info2, #info3 {
-        background-color: #A27B5C;
+        background-color: #2C3639;
         width: 15%;
         height: 65%;
         padding: 20px 20px;
@@ -652,7 +656,7 @@
         background-image: url(../images/small_screen_bg.jpg);
         background-size: contain;
         background-position: top;
-        height: 95vh;
+        height: 80vh;
     }
 
     #hero-section-div {
