@@ -6,6 +6,7 @@
     padding: 0;
     scroll-snap-type: y proximity;
     scroll-snap-align: start;
+    scroll-snap-type: none;
  }
 
 
@@ -536,6 +537,15 @@
 ##################################### */
 
 @media screen and (max-width: 1200px) {
+
+    * {
+        scroll-snap-type: none;
+     }
+    
+    
+        body {
+            scroll-snap-type: none;
+        }
 
 /* Media query 1200px - Hero Image section */
 
