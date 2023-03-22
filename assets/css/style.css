@@ -910,6 +910,12 @@
         flex-basis: 90%;
         margin-bottom: 20px;
      }
+
+/* Media query 800px - Contact page */
+
+    #contact-us-form {
+        margin: 0 auto 30px auto;
+    }
       
 }
 
