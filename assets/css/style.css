@@ -64,7 +64,7 @@
     #hero-image-section {
         background-image: url(../images/subpage-banner.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         height: 60vh;
     }
@@ -128,6 +128,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
+        background-position: center;
         overflow: hidden;
     }
 
@@ -412,11 +413,12 @@
 ------------Aircrafts.html--------------
 --------------------------------------*/
 
-    #aircrafts-section {
+    #subpage-section {
         width: 90%;
+        margin: auto;
     }
 
-    #aircrafts-section h2 {
+    #subpage-section h2 {
         color:#DCD7C9;
         text-align: center;
         margin-top: 100px;
@@ -699,7 +701,6 @@
         width: 80%;
         background:rgba(44, 54, 57,0.7);
         padding: 5px;
-
     }
 
 /* Media query 800px - Background text section */
@@ -755,7 +756,6 @@
         width:80%;
         background:rgba(44, 54, 57,0.7);
         padding: 5px;
-
     }
 
 
@@ -821,7 +821,6 @@
         overflow: hidden;
         background:rgba(44, 54, 57,0.7);
         padding: 5px;
-
     }
 
  /* Media Query 800px - Summary Section */
@@ -905,6 +904,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .column {
         flex-basis: 90%;
         margin-bottom: 20px;
@@ -919,6 +919,6 @@
     }
 
     #introduction {
-        top: 45%;
+        top: 42%;
     }
 }
