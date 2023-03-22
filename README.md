@@ -264,6 +264,8 @@ iOS Safari
 
 - https://www.iwm.org.uk/history/the-incredible-story-of-the-dambusters-raid was used to gather image resources.
 
+- I used https://realfavicongenerator.net/ for the website favicon.
+
 - I used https://colorhunt.co/ to find a suitable color scheme to start working with.
   - found that site via a fellow Code Institute students project https://designland.herokuapp.com/
 
