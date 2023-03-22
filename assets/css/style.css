@@ -638,8 +638,8 @@
      }
 
      #button {
-  width: 100%;
-  margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
      }
 
 }
@@ -891,11 +891,11 @@
 
 /* Media query 800px - Aircrafts page */    
 
-#aircrafts-section {
+    #subpage-section {
     font-size: 70%;
     text-align: center;
     margin: -10% auto auto 5%;
-}
+    }
 
 /* Media query 800px - Gallery page */
   
