@@ -735,7 +735,7 @@
     #ingenuity-section-div {
         background-image: url(../images/wallis.jpg);
         height: 75vh;
-        background-position: center;
+        background-size: cover;
     }
 
     #ingenuity-section-div div {
